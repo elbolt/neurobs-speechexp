@@ -1,0 +1,23 @@
+# File: template for question trial `T_gg_question.tem`.
+# pass item_quest, quest, opt_1, opt_2, opt_3, opt_4, target_key, quest_port,
+trial {
+   trial_type = specific_response;
+   terminator_button = 1, 2, 3, 4;
+   trial_duration = forever;
+   stimulus_event {
+      picture {
+         text {
+            caption = $quest;
+				max_text_width = 1000;
+         }; x = 0; y = 250;
+         text { caption = $opt_1; }; x = 0; y =  100;
+         text { caption = $opt_2; }; x = 0; y =    0;
+         text { caption = $opt_3; }; x = 0; y = -100;
+         text { caption = $opt_4; }; x = 0; y = -200;
+      };
+      target_button = $target_key;
+      response_active = true;
+      code = $item_quest;
+      port_code = $quest_port;
+   };
+};

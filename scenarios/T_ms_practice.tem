@@ -1,0 +1,23 @@
+# File: template for question trial `T_ms_practice.tem`.
+# pass item_quest, opt_1, opt_2, opt_3, opt_4, target_key, quest_port,
+trial {
+   trial_type = specific_response;
+   terminator_button = 1, 2, 3, 4;
+   trial_duration = forever;
+   stimulus_event {
+      picture {
+         text {
+            caption = "Welches Wort haben Sie in diesem Satz gehört? Bitte geben Sie die Antwort mit den Zahlentasten <b>1</b>, <b>2</b>, <b>3</b> oder <b>4</b> auf der Tastatur (markiert mit <font color='$number_key'>⚫</font>).";
+				max_text_width = 1000;
+         }; x = 0; y = 250;
+         text { caption = $opt_1; }; x = 0; y =  100;
+         text { caption = $opt_2; }; x = 0; y =    0;
+         text { caption = $opt_3; }; x = 0; y = -100;
+         text { caption = $opt_4; }; x = 0; y = -200;
+      };
+      target_button = $target_key;
+      response_active = true;
+      code = $item_quest;
+      port_code = $quest_port;
+   };
+};
