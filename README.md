@@ -1,6 +1,6 @@
 # Neurobs Presentation® code for experiments run for PhD projects
 
-This repository contains the code used in the neuroscientific experiments conducted during my PhD thesis, *Exploring cognitive decline through the aging ear with natural speech-based computational neurophysiology*. [[ZORA link will follow as soon as published](#).]
+This repository contains the code used in the neuroscientific experiments conducted during my PhD thesis, *Exploring cognitive decline through the aging ear with natural speech-based computational neurophysiology*, published on [ZORA](https://www.zora.uzh.ch/id/eprint/263136/).
 
 The scenario scripts were written for cognitive and auditory electroencephalography (EEG) experiments conducted at the Linguistic Research Infrastructure (LiRI, [liri.uzh.ch](https://www.liri.uzh.ch/)). The programs were developed and run using [Neurobs Presentation®](https://www.neurobs.com/), version 21.1. I am sharing this repository for full transparency in my research process.
 
@@ -33,4 +33,4 @@ The scenarios include:
    - 4.2 **Audiobook paradigm**: Participants listened to an excerpt from the audiobook version of *The Bell Jar*, a novel by Sylvia Plath.
    - 4.3 **Matrix-style sentences paradigm**: In this paradigm, participants listened to matrix-style sentences developed in our lab. These sentences are hosted in an Open Science Framework repository at [OSF.io/5usgp](https://osf.io/5usgp/wiki/home/).
 
-For more details, please refer to my thesis, which is published on ZORA [[ZORA link will follow as soon as published](#).].
+For more details, please refer to my thesis.
